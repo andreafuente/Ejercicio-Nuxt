@@ -1,0 +1,39 @@
+/* Reset básico */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #222;
+  background-color: #fff;
+}
+
+/* Enlaces */
+a {
+  color: #173d49;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Foco visible */
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}
+
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}

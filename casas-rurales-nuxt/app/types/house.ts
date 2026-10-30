@@ -1,23 +1,20 @@
 export interface Review {
-  id: string;
+  id: number;
   author: string;
   date: string;
-  comment: string;
   rating: number;
+  comment: string;
 }
 
 export interface House {
-  id: string;
+  id: number;
   name: string;
   description: string;
   address: string;
-  city: string;
-  country: string;
+  image: string;
+  price: number;
   bedrooms: number;
   beds: number;
   bathrooms: number;
-  price: number;
-  image: string;
-  amenities: string[];
   reviews: Review[];
 }
